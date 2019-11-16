@@ -1,0 +1,59 @@
+O que acham???
+Jogo jogo = new Jogo();
+		jogo.add("Adriana");
+		jogo.add("Pedro");
+		jogo.add("Aline");
+		jogo.add("Cintia");
+                jogo.add("Alberto");
+		jogo.imprimeJogadores();
+		jogo.inicio();
+// O que aparece na tela
+Jogadores atuais(sentido Horário):
+Adriana
+Pedro
+Aline
+Cintia
+Alberto
+Jogadores atuais(sentido anti-horário):
+Adriana
+Alberto
+Cintia
+Aline
+Pedro
+Jogo iniciado. Jogador sorteado para iniciar: Pedro.
+Jogador atual: Pedro retirou a carta: 5.
+Sentido do jogo mudou. O próximo Jogador seria Aline, agora será: Adriana
+Jogador atual: Adriana retirou a carta: 2.
+Jogador Alberto perdeu a vez.
+Jogador atual: Cintia retirou a carta: 3.
+Jogador Aline ficou suspenso
+Jogador Aline suspenso por 3 jogadas.
+Jogador atual: Pedro retirou a carta: 9.
+Jogador anterior: Aline foi ELIMINADO!!! Restam apenas 4 jogadores.
+Jogadores atuais(sentido anti-horário):
+Pedro
+Adriana
+Alberto
+Cintia
+Jogador atual: Adriana retirou a carta: 5.
+Sentido do jogo mudou. O próximo Jogador seria Alberto, agora será: Pedro
+Jogador atual: Pedro retirou a carta: 2.
+Jogador Cintia perdeu a vez.
+Jogador atual: Alberto retirou a carta: 5.
+Sentido do jogo mudou. O próximo Jogador seria Adriana, agora será: Cintia
+Jogador atual: Cintia retirou a carta: 9.
+Jogador anterior: Alberto foi ELIMINADO!!! Restam apenas 3 jogadores.
+Jogadores atuais(sentido anti-horário):
+Cintia
+Pedro
+Adriana
+Jogador atual: Pedro retirou a carta: 7.
+Jogador atual: Pedro foi ELIMINADO!!! Restam apenas 2 jogadores.
+Jogadores atuais(sentido anti-horário):
+Adriana
+Cintia
+Jogador atual: Adriana retirou a carta: 9.
+Jogador anterior: Cintia foi ELIMINADO!!! Restam apenas 1 jogadores.
+Jogadores atuais(sentido anti-horário):
+Adriana
+O jogador Adriana venceu!
